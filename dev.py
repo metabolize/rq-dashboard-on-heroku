@@ -21,7 +21,7 @@ def cli():
 
 @cli.command()
 def start():
-    execute("pipenv run gunicorn app:run")
+    execute("pipenv run gunicorn app:app")
 
 
 @cli.command()
