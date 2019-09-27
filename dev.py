@@ -21,7 +21,9 @@ def cli():
 
 @cli.command()
 def start():
-    execute("pipenv run gunicorn app:app")
+    execute(
+        "RQ_DASHBOARD_USERNAME=user RQ_DASHBOARD_PASSWORD=pass pipenv run gunicorn app:app"
+    )
 
 
 @cli.command()

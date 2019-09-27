@@ -1,5 +1,5 @@
 import os
-from flask import Flask
+from flask import Flask, redirect
 import rq_dashboard
 from rq_dashboard.cli import add_basic_auth
 
@@ -13,7 +13,13 @@ add_basic_auth(
     password=os.environ.get("RQ_DASHBOARD_PASSWORD"),
 )
 
-app.register_blueprint(rq_dashboard.blueprint, url_prefix="/")
+app.register_blueprint(rq_dashboard.blueprint, url_prefix="/rq")
+
+
+@app.route("/")
+def root():
+    return redirect("/rq", code=302)
+
 
 if __name__ == "__main__":
     app.run()
