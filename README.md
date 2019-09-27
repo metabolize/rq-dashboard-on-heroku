@@ -22,7 +22,7 @@ A version of [RQ Dashboard][] that can be deployed to Heroku.
 
 ## Configuration
 
-Three configuration settings are required:
+Three settings must be configured:
 
 - `RQ_DASHBOARD_REDIS_URL=rediss://redis:6379`
 - `RQ_DASHBOARD_USERNAME=user`
