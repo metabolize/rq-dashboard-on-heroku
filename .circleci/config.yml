@@ -1,0 +1,38 @@
+version: 2
+jobs:
+  format:
+    docker:
+      - image: circleci/python:3
+
+    steps:
+      - checkout
+
+      - run:
+          name: Install python dependencies
+          command: pipenv install --dev
+
+      - run:
+          name: Show versions
+          command: pipenv run pip freeze
+
+      - run:
+          name: Check code format
+          when: always
+          command: pipenv run ./dev.py black-check
+
+workflows:
+  version: 2
+
+  on-commit:
+    jobs:
+      - format
+
+  daily:
+    triggers:
+      - schedule:
+          cron: "0 17 * * *"
+          filters:
+            branches:
+              only: master
+    jobs:
+      - format
