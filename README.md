@@ -1,7 +1,7 @@
 # rq-dashboard-on-heroku
 
-[![rq-dashboard](https://img.shields.io/badge/rq--dashboard-v0.5.3-blue?style=flat-square)][pipfile]
-[![python](https://img.shields.io/badge/python-3.7-blue?style=flat-square)][pipfile]
+[![rq-dashboard](https://img.shields.io/github/pipenv/locked/dependency-version/metabolize/rq-dashboard-on-heroku/rq-dashboard?style=flat-square)][pipfile]
+[![python](https://img.shields.io/github/pipenv/locked/python-version/metabolize/rq-dashboard-on-heroku?style=flat-square)][pipfile]
 ![](https://img.shields.io/github/license/metabolize/rq-dashboard-on-heroku?style=flat-square)
 [![build](https://img.shields.io/circleci/project/github/metabolize/rq-dashboard-on-heroku?style=flat-square)][build]
 [![code style](https://img.shields.io/badge/code%20style-black-black.svg?style=flat-square)][black]
