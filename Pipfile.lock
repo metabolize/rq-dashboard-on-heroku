@@ -179,11 +179,11 @@
         },
         "executor": {
             "hashes": [
-                "sha256:7c88a6cdf9e2e80e262873d610b4fe7b780c1b09398f9d9a6302f2da5edadb1f",
-                "sha256:ea8d4e914186d52e3902763be25bd3ae531cd720f0f07e7a211d76f2d6a326cc"
+                "sha256:596e8cf766eda61964609766abd14d02b9a6538c0159eb3980329c05d56e44bc",
+                "sha256:b5bb4a68e5fa379e6f4af2c2135e7a57236e673b9c2bd030a305299c6dfaac28"
             ],
             "index": "pypi",
-            "version": "==21.3"
+            "version": "==22.0"
         },
         "fasteners": {
             "hashes": [
