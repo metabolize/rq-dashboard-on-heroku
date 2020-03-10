@@ -6,7 +6,7 @@ gunicorn = '==19.9.0'
 rq-dashboard = '==0.5.3'
 
 [dev-packages]
-black = '==19.3b0'
+black = '==19.10b0'
 executor = '>= 21.0'
 click = '>=7.0'
 
