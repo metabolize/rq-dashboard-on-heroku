@@ -197,11 +197,11 @@
         },
         "executor": {
             "hashes": [
-                "sha256:0104bb9d7f5a3bd00642ad031ad2241d0663988bcb3da1c976e763db29b0d6ae",
-                "sha256:c8d4bba81d80c16612fcbcefd45439f45f82daa1d6e24c44b1832f3bb4649d5f"
+                "sha256:e1c6c18ceca9e64f3f9e691bc5271806037c9a96c01e683ce46c03494af6033d",
+                "sha256:f2ea8cf92a1570a9898d5915b9620033aa9d4789eaf27e8a915d91dc8ba83dd9"
             ],
             "index": "pypi",
-            "version": "==23.1"
+            "version": "==23.2"
         },
         "fasteners": {
             "hashes": [
@@ -216,6 +216,14 @@
                 "sha256:f7dba53ac7935fd0b4a2fc9a29e316ddd9ea135fb3052d3d0279d10c18ff9c48"
             ],
             "version": "==9.2"
+        },
+        "importlib-metadata": {
+            "hashes": [
+                "sha256:079ada16b7fc30dfbb5d13399a5113110dab1aa7c2bc62f66af75f0b717c8cac",
+                "sha256:9f55f560e116f8643ecf2922d9cd3e1c7e8d52e683178fecd9d08f6aa357e11e"
+            ],
+            "markers": "python_version < '3.8'",
+            "version": "==4.6.1"
         },
         "mypy-extensions": {
             "hashes": [
@@ -349,6 +357,13 @@
                 "sha256:e33ddedcdfdafcb3a174701150430b11b46ceb64c2a9a26198c76a156568e427"
             ],
             "version": "==1.7"
+        },
+        "zipp": {
+            "hashes": [
+                "sha256:957cfda87797e389580cb8b9e3870841ca991e2125350677b2ca83a0e99390a3",
+                "sha256:f5812b1e007e48cff63449a5e9f4e7ebea716b4111f9c4f9a645f91d579bf0c4"
+            ],
+            "version": "==3.5.0"
         }
     }
 }
